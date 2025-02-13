@@ -5,9 +5,9 @@ function mathOperation(a: number, b: number, operation: MathFunction): number {
 }
 
 // Implement add, subtract, and multiply functions
-const add // ... continue the implementation
-const subtract // ... continue the implementation
-const multiply // ... continue the implementation
+const add: MathFunction = (a,b) => a+b;  // ... continue the implementation
+const subtract: MathFunction = (a,b) => a-b; // ... continue the implementation
+const multiply: MathFunction = (a,b) => a*b; // ... continue the implementation
 
 // Test cases, do not modify
 console.log(mathOperation(5, 3, add)); // Output: 8
