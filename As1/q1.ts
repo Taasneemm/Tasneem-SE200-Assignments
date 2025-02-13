@@ -3,7 +3,13 @@
 // Question 1:
 
 // Implement the processInput function
-
+function processInput(input: number | string): number | string {
+    if (typeof input === "number") {
+        return input * input;
+    } else {
+        return input + input;
+    }
+}
 
 
 // Test cases, do not modify
