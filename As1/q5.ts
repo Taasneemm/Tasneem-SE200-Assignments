@@ -20,7 +20,7 @@ function getNestedValue(obj: any, key: string): unknown {
     if (typeof result === "object" && result !== null && k in result) {
         result = result[k]; // Move deeper into the object
     } else {
-        return undefined; // Key does not exist
+        return undefined; 
     }
     }
 
